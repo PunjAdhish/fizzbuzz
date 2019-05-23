@@ -14,8 +14,23 @@ def input_option():
 	input_page(fr)
 input_option()
 def input_page(fr):
-	 fw=open("NewFile.txt",'w')
-	 count=0  #set counter
+	word="" #declaring word as empty  string
+	fw=open("NewFile.txt",'w')
+	count=0  #set counter
+	pages=input("Enter starting page number")
+	pagend=input("Enter Ending page number")
+	for word in range(0,(25*pages),+1):
+	count+=1
+	if count>=(25*pages) and count<=(25*pagend):
+		for j in i:
+			if j=='o' or j=='O':
+				J='0'
+			elif j=='e' or j=='E'
+				j='3'
+			elif j=='i' or j=='I'
+				j='1'
+
+
 
 
 
